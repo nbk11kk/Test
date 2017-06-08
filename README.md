@@ -1,5 +1,5 @@
  
-1. Provide a script in a `scripts/` directory to load the CSV data into database table(s) of your own design.
+### 1. Provide a script in a `scripts/` directory to load the CSV data into database table(s) of your own design.
 
 Assumption: I assumed the database as oracle and created all scripts based on oracle syntax
 
@@ -22,14 +22,14 @@ If there are any errors, a bad data file gets auto generated data with the rejec
 
 
 
-2. Provide SQL scripts in a `scripts/` directory to achieve the following:
+### 2. Provide SQL scripts in a `scripts/` directory to achieve the following:
 
-Sql queries file is added to scripts folder (All_Queries.sql)
+Sql queries file is added to scripts folder (All_Queries.sql).
 Assumptions are added as comments before each sql query in All_Queries.sql
 
 
 
-3. (BONUS ARCHITECTURE QUESTION) - Imagine this problem scaled up to a large business working with terabytes to petabytes of information.  Would your solution be different? 
+### 3. (BONUS ARCHITECTURE QUESTION) - Imagine this problem scaled up to a large business working with terabytes to petabytes of information.  Would your solution be different? 
 What kinds of performance issues would you consider?  What overall architectural concerns would you have?  How might you structure a team around this kind of work?  
 
 As mentioned above SQL loader utility should work for millions of rows without any problem 
