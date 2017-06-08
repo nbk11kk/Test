@@ -25,7 +25,7 @@ If there are any errors, a bad data file gets auto generated data with the rejec
 ### 2. Provide SQL scripts in a `scripts/` directory to achieve the following:
 
 Sql queries file is added to scripts folder (All_Queries.sql).
-Assumptions are added as comments before each sql query in All_Queries.sql
+Assumptions are added as comments before each sql query in All_Queries.sql file
 
 
 
